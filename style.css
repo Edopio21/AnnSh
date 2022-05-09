@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    color: rgb(161, 212, 109);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(38, 246, 104);
+}
+
+.contact_p {
+    color: rgb(21, 173, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+}
+
+.grid-item1 {
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin: 0;
+    padding: 0;
+
+}
+
+.grid-item1 img {
+    height: 600px;
+    width: 300px;
+}
