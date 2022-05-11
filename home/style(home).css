@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+    
+.nav_box {
+    background-color: rgba(13, 11, 91, 0.8);
+    font-size:x-large;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 40px 0px;
+}
+
+.nav_box ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_box ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_box ul a:hover {
+    color: aqua;
+    transition: 1s;
+}
